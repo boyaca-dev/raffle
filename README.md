@@ -5,7 +5,7 @@ Thanks to our [community sponsors](https://boyaconf.com/#sponsors) we have some 
 ## How does it work?
 
 The selection process is as follows:
-1. Read the whole list of attendees (we don't include organizers, staff, speakers or sponsors) and pick only those that were registered at event's opening.
+1. Read the whole list of attendees (we don't include organizers, staff, speakers or sponsors) and pick only those that were registered at event's opening. _This list is not available in this repo for privacy reasons._
 2. Shuffle that list.
 3. Pick `p` random numbers from 0 to `n`, where `p` is the number of prizes and `n` is the number of attendees picked in step 1.
 4. Create a list by picking attendees at index `w` where `w` is each one of the numbers picked in step 3.
