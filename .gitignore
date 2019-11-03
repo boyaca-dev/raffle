@@ -2,3 +2,4 @@
 .idea
 *.txt
 *.csv
+!requirements.txt
