@@ -41,7 +41,9 @@ def get_attendees():
         try:
             portions = line.split(',')
             full_name = portions[4]
+            ticket = portions[14]
             is_here = str(portions[32]) == '1'
+            full_name += ' (%s)' % ticket.strip()
         except Exception:
             pass
         if len(full_name) > 0 and is_here:
