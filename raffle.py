@@ -5,8 +5,6 @@ from tabulate import tabulate
 prizes = [
     'Licencia JetBrains #1',
     'Licencia JetBrains #2',
-    'Entrada ScaleConf #1',
-    'Entrada ScaleConf #2',
     'Entrada Pycon',
     'Cursos Net University #1',
     'Cursos Net University #2',
